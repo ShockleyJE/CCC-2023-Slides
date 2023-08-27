@@ -96,10 +96,6 @@ Using Rust to Build a Hyper Performant Distributed SaaS Platform
 slides: [shockleyje.com/talks/2023/ccc](shockleyje.com/talks/2023/ccc)
 
 notes:
-
-Hey y'all it's been a crazy day here. 
-
-Big props to Barry for putting this conference together
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -167,7 +163,7 @@ college of charleston
 
 <div class="block">
 
-german automotive industry veteran
+mein deutsch is nicht so gut
 </div>
 
 
@@ -240,7 +236,7 @@ guess what distro I used...
 
 <div class="block">
 
-park city, ut
+Thea, Snowflake, from John's AgreeableData talk took this pic
 </div>
 
 
@@ -248,29 +244,6 @@ park city, ut
 </div>
 
 <aside class="notes"><p>Outside of work I enjoy shredding pow. This was from getting some air on a 3 meter knuckle out in Park City Utah</p>
-</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="assets/climbing.jpg" alt="" style="object-fit: scale-down">
-
-
-
-
-
-
-<div class="" style="position: absolute; left: 0%; top: 94%; height: 6%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
-
-<div class="block">
-
-big rock, sc
-</div>
-
-
-</div>
-</div>
-
-<aside class="notes"><p>I also enjoy climbing. Over right you can see the start of a climb called dragons roof I believe?  </p>
-<p>Not pictured were the ants, yellowjackets, and heat- this place is honestly really a brutal climb and not because of the grade</p>
 </aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -301,9 +274,27 @@ This talk **is**..
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 - [Zero2Prod: An Opinionated Introduction to Backend Development](https://www.zero2prod.com/index.html?country_code=US)
-- [No Boilerplate](https://www.youtube.com/@NoBoilerplate): Fast, technical videos 
+- [No Boilerplate](https://www.youtube.com/@NoBoilerplate): Fast, technical videos on Rust
 - Various [HackerNews](https://news.ycombinator.com/) resources
 - Huge shoutout to Autometrics project
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+And shoutout to the rest of the rustaceans at Neurelo
+Alan Munguía, Arturo Salvio, Parth Parikh, George Sumspter, Alberto Romero
+
+
+
+
+<div class="" style="position: absolute; left: 0%; top: 94%; height: 6%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+<div class="block">
+
+Just like Stephanie told us how earlier, we keep each other curious
+</div>
+
+
+</div>
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -313,7 +304,7 @@ The talk **is not…**
 
 An introduction to Rust itself
 
-[But this is Google's in-house training program](https://google.github.io/comprehensive-rust/)
+[But Google's in-house training program is stellar](https://google.github.io/comprehensive-rust/)
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -355,8 +346,7 @@ We will talk about Neurelo, because the context is inseparable from my experienc
 </div>
 
 <aside class="notes"><p>My company has been really supportive about letting me use my experience at Neurelo to set the context for this talk and telling my experience in regards to our decision to use rust, as well as providing framework for a demonstration</p>
-<p>A deeper talk on Neurelo’s architecture and how we’re solving data access problems, is not the focus or intention, no an advertisement</p>
-<p>But if would be interesting to you, I or Chirag would love to hear that from you afterwards.</p>
+<p>A deeper talk on Neurelo’s architecture and how we’re solving data access problems, is not the focus or intention</p>
 </aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -370,7 +360,7 @@ What problem did we set out to solve?
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-Data access
+Data access & APIs
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -381,10 +371,10 @@ Data access
 <p>We put a lot of time into activities like</p>
 <p>a) modeling data itself - creating your schema
 b) realizing access methods for data model - like creating rest API endpoints to interact with that data model
-c) setting access control policies for that data - not only at the database level, but maybe an application-level RBAC concept as well
+c) making migrations, keeping that data model in sync with reality
 d) observing how our data is accessed - Are your users changing how they access their data over time, is an access methods performance degrading over time</p>
 <p>And finally- all of that has to be maintained</p>
-<p>Neurelo is a data access platform that provides an opinionated, but open and extensible platform for performing all the responsibilities associated with data access, and exposing cloud apis</p>
+<p>Neurelo is a data access platform that accelerates development for day-1 problems, while continuing to support you on day 2</p>
 </aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -406,7 +396,7 @@ d) observing how our data is accessed - Are your users changing how they access 
 <video data-autoplay loop><source src="assets/openapi.mov" type="video/mp4"></video>
 </div>
 
-<aside class="notes"><p>We generate a base set of access methods for your schema, both graphQL methods as well as OpenAPI specified REST-style HTTP endpoints.</p>
+<aside class="notes"><p>We generate a base set of access methods for your schema, both with graphQL as well as OpenAPI spec compatible HTTP endpoints</p>
 </aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -511,27 +501,25 @@ We&#39;re building a greenfield application, so 1 &amp; 2 don&#39;t matter if we
 </aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-#### [Energy efficiency across programming languages: how do energy, time, and memory relate?](https://www.researchgate.net/publication/320436353_Energy_efficiency_across_programming_languages_how_do_energy_time_and_memory_relate)
+#### [Languages: Energy efficiency across programming languages: how do energy, time, and memory relate?](https://www.researchgate.net/publication/320436353_Energy_efficiency_across_programming_languages_how_do_energy_time_and_memory_relate)
 
 <br>
 
-#### [How Much Memory Do You Need to Run 1 Million Concurrent Tasks?](https://pkolaczk.github.io/memory-consumption-of-async/)
+#### [Frameworks: How Much Memory Do You Need to Run 1 Million Concurrent Tasks?](https://pkolaczk.github.io/memory-consumption-of-async/)
 </div>
 
 <aside class="notes"><p>For this, we will use synthetic benchmarks. The topic of benchmarking is a <strong>completely</strong> separate topic, and we can discuss ad nauseam about how one should do it. In the end, in the end, these were some noteworthy one</p>
 </aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-1. C, C++, Rust, Zig
+1. C++, Rust
 2. Golang
-3. Java, C#
-
 ...
 </div>
 
 <aside class="notes"><p>Again, we&#39;re really just building an understanding in which we can talk about the performance of various languages relative to each other for the certain tasks we need them for</p>
 <ol start="5">
-<li>Eliminated: Python, Typescript, Javascript, Ruby</li>
+<li>Eliminated: Interpreted languages like Python, Typescript, Javascript, Ruby</li>
 <li>Hanging in there: Java, C#</li>
 <li>Contenders left: Rust, Zig, Golang, C++, C</li>
 </ol>
@@ -561,13 +549,13 @@ We&#39;re building a greenfield application, so 1 &amp; 2 don&#39;t matter if we
 </div>
 </div>
 
-<aside class="notes"><p>Golang has unique performance characteristics due to it&#39;s &#39;Stop the world&#39; style garbage collection. </p>
+<aside class="notes"><p>Golang has unique performance characteristics due to it&#39;s Stop the world style garbage collection. </p>
 <p>This chart is from an article about why Discord was switching away from Golang in favor of Rust due to this specific quality. They were seeing this variable performance manifest and had exhausted all tuning options. They were simply up against the limits of the their own </p>
 <p>This is exactly what we didn&#39;t want to see in our performance profile, and as such the only thing we&#39;ve written in golang is our kubernetes operator</p>
 </aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-Results: C, C++, Rust, Zig
+Results: C++, Rust
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -791,11 +779,11 @@ You only learn borrowing &amp; ownership <em>once</em>. </p>
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-
+<video data-autoplay loop><source src="assets/demo.mp4" type="video/mp4"></video>
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#121325" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<iframe width="1539" height="801" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<img src="assets/qr-code.png" alt="" style="object-fit: scale-down">
 </div></script></section></div>
     </div>
 
